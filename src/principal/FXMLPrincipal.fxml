@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="469.0" prefWidth="656.0" style="-fx-background-color: b1cbfa;" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="principal.FXMLPrincipalController">
+   <children>
+      <Pane layoutX="10.0" prefHeight="75.0" prefWidth="656.0" style="-fx-background-color: dfe2fe;">
+         <children>
+            <Label layoutX="260.0" layoutY="14.0" text="mateApp" textFill="#ea8e37">
+               <font>
+                  <Font name="Courgette Regular" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="btnAtras" layoutX="38.0" layoutY="387.0" mnemonicParsing="false" onAction="#regresarInicio" style="-fx-background-color: f2f4fb;" text="Atrás" textFill="#005792">
+         <font>
+            <Font name="Courgette Regular" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSuma" layoutX="127.0" layoutY="213.0" mnemonicParsing="false" onAction="#iniciarVentanaPrincipalSuma" prefHeight="57.0" prefWidth="150.0" style="-fx-background-color: cef0b9;" text="+" textFill="#64a36f">
+         <font>
+            <Font name="Aclonica Regular" size="72.0" />
+         </font></Button>
+      <Button fx:id="btnResta" layoutX="413.0" layoutY="213.0" mnemonicParsing="false" onAction="#iniciarVentanaPrincipalResta" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: cef0b9;" text="-" textFill="#64a36f">
+         <font>
+            <Font name="Aclonica Regular" size="72.0" />
+         </font></Button>
+      <Label layoutX="136.0" layoutY="125.0" text="SUMA" textFill="#005792">
+         <font>
+            <Font name="Aclonica Regular" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="419.0" layoutY="125.0" text="RESTA" textFill="#005792">
+         <font>
+            <Font name="Aclonica Regular" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
