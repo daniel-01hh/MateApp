@@ -11,8 +11,8 @@
 
 <AnchorPane id="AnchorPane" prefHeight="573.0" prefWidth="771.0" style="-fx-background-color: f9ad8d;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioUNOController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4c096" height="50.0" layoutX="142.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="471.0" />
-      <Text fill="#132bb2" layoutX="305.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ejercicio 1" textAlignment="CENTER">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4c096" height="50.0" layoutX="179.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="471.0" />
+      <Text fill="#132bb2" layoutX="323.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ejercicio 1" textAlignment="CENTER">
          <font>
             <Font name="Courgette Regular" size="33.0" />
          </font>
