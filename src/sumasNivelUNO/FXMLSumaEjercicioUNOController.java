@@ -59,7 +59,7 @@ public class FXMLSumaEjercicioUNOController implements Initializable {
         }
     }
      @FXML
-    public void siguiente(ActionEvent evento){
+    public void siguientepag(ActionEvent evento){
         try{
             Stage stage = new Stage();
             Parent root = FXMLLoader.load(getClass().getResource("/sumasNivelUNO/FXMLSumaEjercicioDOS.fxml"));
