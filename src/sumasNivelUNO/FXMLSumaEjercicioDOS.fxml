@@ -9,8 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="770.0" style="-fx-background-color: fde3d9;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioDOSController">
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="770.0" style="-fx-background-color: fde3d9;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioDOSController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9ad8d" height="50.0" layoutX="150.0" layoutY="14.0" stroke="#b73535" strokeType="INSIDE" width="471.0" />
       <Text fill="#0b409c" layoutX="310.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ejercicio 2" textAlignment="CENTER">
@@ -18,18 +17,13 @@
             <Font name="Courgette Regular" size="33.0" />
          </font>
       </Text>
-      <Text fill="#0b409c" layoutX="87.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="En este ejercicio de sumas hay tres figuras diferentes" wrappingWidth="550.51171875">
+      <Text fill="#0b409c" layoutX="150.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="En este ejercicio hay tres figuras cada una tiene un valor" wrappingWidth="471.0000032186508">
          <font>
             <Font name="Aclonica Regular" size="18.0" />
          </font>
       </Text>
-      <Text fill="#0b409c" layoutX="87.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="y cada una tiene un valor" wrappingWidth="268.51171875">
-         <font>
-            <Font name="Aclonica Regular" size="18.0" />
-         </font>
-      </Text>
-      <Circle fill="#f8b500" layoutX="122.0" layoutY="212.0" radius="40.0" stroke="#f8b500" strokeType="INSIDE" />
-      <Polygon fill="DODGERBLUE" layoutX="385.0" layoutY="222.0" scaleX="0.8" scaleY="0.8" scaleZ="0.8" stroke="DODGERBLUE" strokeType="INSIDE">
+      <Circle fill="#f8b500" layoutX="122.0" layoutY="174.0" radius="40.0" stroke="#f8b500" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="385.0" layoutY="184.0" scaleX="0.8" scaleY="0.8" scaleZ="0.8" stroke="DODGERBLUE" strokeType="INSIDE">
         <points>
           <Double fx:value="-50.0" />
           <Double fx:value="40.0" />
@@ -39,18 +33,18 @@
           <Double fx:value="-60.0" />
         </points>
       </Polygon>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#228c7b" height="100.0" layoutX="571.0" layoutY="162.0" scaleX="0.8" scaleY="0.8" scaleZ="0.8" stroke="#228c7b" strokeType="INSIDE" width="100.0" />
-      <Text layoutX="88.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="vale 3">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#228c7b" height="100.0" layoutX="571.0" layoutY="124.0" scaleX="0.8" scaleY="0.8" scaleZ="0.8" stroke="#228c7b" strokeType="INSIDE" width="100.0" />
+      <Text fill="#0b409c" layoutX="88.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="vale 3">
          <font>
             <Font name="Courgette Regular" size="26.0" />
          </font>
       </Text>
-      <Text layoutX="350.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="vale 2">
+      <Text fill="#0b409c" layoutX="350.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="vale 2">
          <font>
             <Font name="Courgette Regular" size="26.0" />
          </font>
       </Text>
-      <Text layoutX="587.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="vale 4">
+      <Text fill="#0b409c" layoutX="587.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="vale 4">
          <font>
             <Font name="Courgette Regular" size="26.0" />
          </font>
@@ -83,11 +77,34 @@
             <Font name="Courgette Regular" size="26.0" />
          </font>
       </Text>
-      <Text layoutX="323.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Respuestas">
+      <Text fill="#0b409c" layoutX="323.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Respuestas">
          <font>
             <Font name="Courgette Regular" size="26.0" />
          </font>
       </Text>
-      <Button layoutX="220.0" layoutY="500.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="242.0" layoutY="490.0" mnemonicParsing="false" style="-fx-background-color: cef0b9;" text="12" textFill="#228c7b">
+         <font>
+            <Font name="Aclonica Regular" size="24.0" />
+         </font></Button>
+      <Button layoutX="354.0" layoutY="490.0" mnemonicParsing="false" style="-fx-background-color: cef0b9;" text="10" textFill="#228c7b">
+         <font>
+            <Font name="Aclonica Regular" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="462.0" layoutY="490.0" mnemonicParsing="false" style="-fx-background-color: cef0b9;" text="15" textFill="#228c7b">
+         <font>
+            <Font name="Aclonica Regular" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAtras" layoutX="38.0" layoutY="488.0" mnemonicParsing="false" onAction="#regresarInicio" style="-fx-background-color: f2f4fb;" text="Inicio" textFill="#005792">
+         <font>
+            <Font name="Courgette Regular" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAtras1" layoutX="611.0" layoutY="488.0" mnemonicParsing="false" onAction="#regresarInicio" style="-fx-background-color: f2f4fb;" text="Siguiente" textFill="#005792">
+         <font>
+            <Font name="Courgette Regular" size="24.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
