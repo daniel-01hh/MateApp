@@ -156,7 +156,7 @@
             <Image url="@../recursos/apple.png" />
          </image>
       </ImageView>
-      <Button fx:id="siguiente" layoutX="604.0" layoutY="483.0" mnemonicParsing="false" onAction="#siguiente" style="-fx-background-color: b9d4f1;" text="Siguiente" textFill="#005792">
+      <Button fx:id="siguiente" layoutX="604.0" layoutY="483.0" mnemonicParsing="false" onAction="#siguientepag" style="-fx-background-color: b9d4f1;" text="Siguiente" textFill="#005792">
          <font>
             <Font name="Courgette Regular" size="24.0" />
          </font>
