@@ -9,9 +9,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="573.0" prefWidth="771.0" style="-fx-background-color: f9ad8d;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioUNOController">
+<AnchorPane id="AnchorPane" fx:id="sigui" prefHeight="573.0" prefWidth="771.0" style="-fx-background-color: fde3d9;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioUNOController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4c096" height="50.0" layoutX="179.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="471.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e39696" height="50.0" layoutX="179.0" layoutY="14.0" stroke="#a42121" strokeType="INSIDE" width="471.0" />
       <Text fill="#132bb2" layoutX="323.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ejercicio 1" textAlignment="CENTER">
          <font>
             <Font name="Courgette Regular" size="33.0" />
@@ -22,124 +22,164 @@
             <Font name="Courgette Regular" size="24.0" />
          </font>
       </Button>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="59.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="14.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../recursos/apple.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="124.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="197.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="59.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="124.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="197.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="59.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="124.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="197.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <Label layoutX="142.0" layoutY="65.0" text="Realiza la suma de manzanas">
+      <Label layoutX="178.0" layoutY="64.0" text="Realiza la suma de manzanas." textFill="#3244c6">
          <font>
-            <Font size="18.0" />
+            <Font name="Arial Bold Italic" size="18.0" />
          </font></Label>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="341.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="396.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="341.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="396.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="341.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="396.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="461.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="461.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="461.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="522.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="522.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="41.0" fitWidth="36.0" layoutX="522.0" layoutY="266.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/apple.png" />
-         </image>
-      </ImageView>
-      <Text layoutX="259.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+">
+      <Text layoutX="237.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+">
          <font>
             <Font size="67.0" />
          </font>
       </Text>
-      <Text layoutX="558.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
+      <Text layoutX="614.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=">
          <font>
             <Font size="67.0" />
          </font>
       </Text>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="89.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="159.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="14.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="89.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="159.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="16.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="91.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="161.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="293.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="293.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="295.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="350.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="350.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="352.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="406.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="406.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="408.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="468.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="468.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="470.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="525.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="525.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="529.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/apple.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="siguiente" layoutX="604.0" layoutY="483.0" mnemonicParsing="false" onAction="#siguiente" style="-fx-background-color: b9d4f1;" text="Siguiente" textFill="#005792">
+         <font>
+            <Font name="Courgette Regular" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="90.0" layoutY="350.0" mnemonicParsing="false" style="-fx-background-color: b9d4f1;" text="22" textFill="#e40505">
+         <font>
+            <Font name="Courgette Regular" size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="237.0" layoutY="350.0" mnemonicParsing="false" style="-fx-background-color: b9d4f1;" text="24" textFill="#e40505">
+         <font>
+            <Font name="Courgette Regular" size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="399.0" layoutY="350.0" mnemonicParsing="false" style="-fx-background-color: b9d4f1;" text="26" textFill="#e40505">
+         <font>
+            <Font name="Courgette Regular" size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="550.0" layoutY="350.0" mnemonicParsing="false" style="-fx-background-color: b9d4f1;" text="28" textFill="#e40505">
+         <font>
+            <Font name="Courgette Regular" size="30.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
