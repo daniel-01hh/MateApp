@@ -17,7 +17,7 @@
             <Font name="Courgette Regular" size="33.0" />
          </font>
       </Text>
-      <Button layoutX="37.0" layoutY="483.0" mnemonicParsing="false" style="-fx-background-color: b9d4f1;" text="Inicio" textFill="#005792">
+      <Button fx:id="btnInicio" layoutX="37.0" layoutY="483.0" mnemonicParsing="false" onAction="#regresarSuma" style="-fx-background-color: b9d4f1;" text="Inicio" textFill="#005792">
          <font>
             <Font name="Courgette Regular" size="24.0" />
          </font>
@@ -106,22 +106,22 @@
             <Image url="@../recursos/apple.png" />
          </image>
       </ImageView>
-      <Button layoutX="165.0" layoutY="400.0" mnemonicParsing="false" style="-fx-background-color: f9c4aa;" text="22" textFill="#e40505">
+      <Button fx:id="btnRespuesta1" layoutX="165.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" style="-fx-background-color: f9c4aa;" text="22" textFill="#e40505">
          <font>
             <Font name="Courgette Regular" size="30.0" />
          </font>
       </Button>
-      <Button layoutX="282.0" layoutY="400.0" mnemonicParsing="false" style="-fx-background-color: f9c4aa;" text="24" textFill="#e40505">
+      <Button fx:id="btnRespuesta2" layoutX="282.0" layoutY="400.0" mnemonicParsing="false" style="-fx-background-color: f9c4aa;" text="24" textFill="#e40505">
          <font>
             <Font name="Courgette Regular" size="30.0" />
          </font>
       </Button>
-      <Button layoutX="397.0" layoutY="400.0" mnemonicParsing="false" style="-fx-background-color: f9c4aa;" text="26" textFill="#e40505">
+      <Button fx:id="btnRespuesta3" layoutX="397.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" style="-fx-background-color: f9c4aa;" text="26" textFill="#e40505">
          <font>
             <Font name="Courgette Regular" size="30.0" />
          </font>
       </Button>
-      <Button layoutX="513.0" layoutY="400.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: f9c4aa;" text="28" textFill="#e40505">
+      <Button fx:id="btnRespuesta4" layoutX="513.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: f9c4aa;" text="28" textFill="#e40505">
          <font>
             <Font name="Courgette Regular" size="30.0" />
          </font>
