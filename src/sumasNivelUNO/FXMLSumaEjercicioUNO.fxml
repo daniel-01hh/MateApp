@@ -17,7 +17,7 @@
             <Font name="Courgette Regular" size="33.0" />
          </font>
       </Text>
-      <Button fx:id="btnInicio" layoutX="37.0" layoutY="483.0" mnemonicParsing="false" onAction="#regresarSuma" style="-fx-background-color: b9d4f1;" text="Inicio" textFill="#005792">
+      <Button fx:id="btnInicio" layoutX="37.0" layoutY="483.0" mnemonicParsing="false" onAction="#inicio" style="-fx-background-color: b9d4f1;" text="Inicio" textFill="#005792">
          <font>
             <Font name="Courgette Regular" size="24.0" />
          </font>
@@ -33,77 +33,77 @@
       </Text>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="302.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="302.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="304.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="359.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="359.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="361.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="415.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="415.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="417.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="468.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="468.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="470.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="525.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="525.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="529.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <Button fx:id="btnRespuesta1" layoutX="165.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" style="-fx-background-color: f9c4aa;" text="22" textFill="#e40505">
@@ -111,7 +111,7 @@
             <Font name="Courgette Regular" size="30.0" />
          </font>
       </Button>
-      <Button fx:id="btnRespuesta2" layoutX="282.0" layoutY="400.0" mnemonicParsing="false" style="-fx-background-color: f9c4aa;" text="24" textFill="#e40505">
+      <Button fx:id="btnRespuesta2" layoutX="282.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaCorrecta" style="-fx-background-color: f9c4aa;" text="24" textFill="#e40505">
          <font>
             <Font name="Courgette Regular" size="30.0" />
          </font>
@@ -133,50 +133,50 @@
       </Text>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="64.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="64.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="66.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="121.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="121.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="123.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="177.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="177.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="58.0" fitWidth="67.0" layoutX="179.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/apple.png" />
+            <Image url="@../frutas/manzana.png" />
          </image>
       </ImageView>
-      <Button disable="true" layoutX="600.0" layoutY="483.0" mnemonicParsing="false" style="-fx-background-color: b9d4f1;" text="Siguiente" textFill="#005792">
+      <Button fx:id="btnSiguiente" layoutX="600.0" layoutY="483.0" mnemonicParsing="false" onAction="#siguienteEjercicio" style="-fx-background-color: b9d4f1;" text="Siguiente" textFill="#005792">
          <font>
             <Font name="Courgette Regular" size="24.0" />
          </font>

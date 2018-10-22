@@ -10,7 +10,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="770.0" style="-fx-background-color: fde3d9;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioDOSController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e39696" height="50.0" layoutX="150.0" layoutY="14.0" stroke="#a42121" strokeType="INSIDE" width="471.0" />
@@ -69,12 +68,12 @@
             <Font name="Aclonica Regular" size="67.0" />
          </font>
       </Text>
-      <Button layoutX="37.0" layoutY="483.0" mnemonicParsing="false" style="-fx-background-color: b9d4f1;" text="Inicio" textFill="#005792">
+      <Button layoutX="37.0" layoutY="483.0" mnemonicParsing="false" onAction="#inicio" style="-fx-background-color: b9d4f1;" text="Inicio" textFill="#005792">
          <font>
             <Font name="Courgette Regular" size="24.0" />
          </font>
       </Button>
-      <Button disable="true" layoutX="600.0" layoutY="483.0" mnemonicParsing="false" style="-fx-background-color: b9d4f1;" text="Siguiente" textFill="#005792">
+      <Button layoutX="600.0" layoutY="483.0" mnemonicParsing="false" onAction="#siguienteEjercicio" style="-fx-background-color: b9d4f1;" text="Siguiente" textFill="#005792">
          <font>
             <Font name="Courgette Regular" size="24.0" />
          </font>
@@ -84,22 +83,22 @@
             <Font name="Courgette Regular" size="33.0" />
          </font>
       </Text>
-      <Button layoutX="165.0" layoutY="400.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: cef0b9;" text="10" textFill="#389168">
+      <Button layoutX="165.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: cef0b9;" text="10" textFill="#389168">
          <font>
             <Font name="Courgette Regular" size="30.0" />
          </font>
       </Button>
-      <Button layoutX="282.0" layoutY="400.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: cef0b9;" text="13" textFill="#389168">
+      <Button layoutX="282.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: cef0b9;" text="12" textFill="#389168">
          <font>
             <Font name="Courgette Regular" size="30.0" />
          </font>
       </Button>
-      <Button layoutX="397.0" layoutY="400.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: cef0b9;" text="15" textFill="#389168">
+      <Button layoutX="397.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaCorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: cef0b9;" text="14" textFill="#389168">
          <font>
             <Font name="Courgette Regular" size="30.0" />
          </font>
       </Button>
-      <Button layoutX="513.0" layoutY="400.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: cef0b9;" text="9" textFill="#389168">
+      <Button layoutX="513.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: cef0b9;" text="9" textFill="#389168">
          <font>
             <Font name="Courgette Regular" size="30.0" />
          </font>

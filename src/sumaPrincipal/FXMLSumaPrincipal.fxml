@@ -32,7 +32,7 @@
             <Font name="Courgette Regular" size="24.0" />
          </font>
       </Button>
-      <Button fx:id="btnSuma" layoutX="127.0" layoutY="213.0" mnemonicParsing="false" onAction="#siguienteEjercicio1" prefHeight="57.0" prefWidth="150.0" style="-fx-background-color: fdbe34;" text="l&gt;" textFill="#f6ec72">
+      <Button fx:id="btnSuma" layoutX="127.0" layoutY="213.0" mnemonicParsing="false" onAction="#siguienteEjercicio" prefHeight="57.0" prefWidth="150.0" style="-fx-background-color: fdbe34;" text="l&gt;" textFill="#f6ec72">
          <font>
             <Font name="Aclonica Regular" size="72.0" />
          </font>
