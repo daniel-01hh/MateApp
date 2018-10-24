@@ -54,7 +54,7 @@ public class FXMLSumaPrincipalController implements Initializable {
         }
     }
     @FXML
-    public void siguienteEjercicio1(ActionEvent evento){
+    public void siguienteEjercicio(ActionEvent evento){
         try{
             Stage stage = new Stage();
             Parent root = FXMLLoader.load(getClass().getResource("/sumasNivelUNO/FXMLSumaEjercicioUNO.fxml"));
@@ -62,7 +62,7 @@ public class FXMLSumaPrincipalController implements Initializable {
             Scene scene = new Scene(root);
         
             stage.setResizable(false);
-            stage.setTitle("mateApp - Principal");
+            stage.setTitle("mateApp - Suma Ejercicio 1");
             stage.getIcons().add(new Image("/recursos/logo.png"));       
             stage.setScene(scene);
             stage.show();

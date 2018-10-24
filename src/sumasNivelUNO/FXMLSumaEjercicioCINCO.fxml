@@ -1,23 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="528.0" prefWidth="759.0" style="-fx-background-color: fde3d9;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioCINCOController">
+<AnchorPane id="AnchorPane" prefHeight="528.0" prefWidth="759.0" style="-fx-background-color: fde3d9;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioCINCOController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9ad8d" height="50.0" layoutX="152.0" layoutY="34.0" stroke="#b73535" strokeType="INSIDE" width="471.0" />
-      <Text fill="#0b409c" layoutX="312.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ejercicio 5" textAlignment="CENTER">
+      <Text fill="#0b409c" fontSmoothingType="LCD" layoutX="343.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+" textAlignment="CENTER">
          <font>
-            <Font name="Courgette Regular" size="33.0" />
+            <Font name="Courgette Regular" size="45.0" />
          </font>
       </Text>
-      <Text layoutX="144.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eligue cual es la cantidad exacta en total de los billetes.">
+      <Text fill="#1f309e" layoutX="182.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Si una pizza cuesta $60 y un refresco cuesta $25.">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Text>
+      <Text fill="#1f309e" layoutX="214.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Cuantó costara 2 pizzas y tres refrescos?">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="113.0" fitWidth="118.0" layoutX="192.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/Pizza.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="23.0" layoutX="495.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/cocacola.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="69.0" fitWidth="67.0" layoutX="85.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/Pizza.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="69.0" fitWidth="67.0" layoutX="159.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/Pizza.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="69.0" fitWidth="67.0" layoutX="248.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/Pizza.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="17.0" layoutX="404.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/cocacola.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="89.0" fitWidth="17.0" layoutX="445.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/cocacola.png" />
+         </image>
+      </ImageView>
+      <Text fill="#0b409c" fontSmoothingType="LCD" layoutX="481.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="=" textAlignment="CENTER">
+         <font>
+            <Font name="Courgette Regular" size="45.0" />
+         </font>
+      </Text>
+      <Text fill="#ee0e0e" fontSmoothingType="LCD" layoutX="561.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="?" textAlignment="CENTER">
+         <font>
+            <Font name="Courgette Regular" size="45.0" />
+         </font>
+      </Text>
+      <Text fill="#0b409c" fontSmoothingType="LCD" layoutX="39.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pizza $60.00" textAlignment="CENTER" wrappingWidth="186.2880859375">
+         <font>
+            <Font name="Courgette Regular" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#0b409c" fontSmoothingType="LCD" layoutX="509.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coca Cola $25.00" textAlignment="CENTER" wrappingWidth="186.2880859375">
+         <font>
+            <Font name="Courgette Regular" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#0b409c" layoutX="313.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ejercicio 5" textAlignment="CENTER">
+         <font>
+            <Font name="Courgette Regular" size="33.0" />
+         </font>
+      </Text>
+      <Button layoutX="112.0" layoutY="383.0" mnemonicParsing="false" onAction="#respuestaCorrecta" text="\$195.00" textFill="#0b0b72">
+         <font>
+            <Font name="Bernard MT Condensed" size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="248.0" layoutY="383.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" text="\$175.00" textFill="#0b0b72">
+         <font>
+            <Font name="Bernard MT Condensed" size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="375.0" layoutY="383.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" text="\$111.00" textFill="#0b0b72">
+         <font>
+            <Font name="Bernard MT Condensed" size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="513.0" layoutY="383.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" text="\$155.00" textFill="#0b0b72">
+         <font>
+            <Font name="Bernard MT Condensed" size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="42.0" layoutY="468.0" mnemonicParsing="false" onAction="#inicio" style="-fx-background-color: b9d4f1;" text="Inicio" textFill="#005792">
+         <font>
+            <Font name="Courgette Regular" size="24.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

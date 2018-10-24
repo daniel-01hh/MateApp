@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -8,66 +9,78 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="525.0" prefWidth="736.0" style="-fx-background-color: fde3d9;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioTRESController">
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="770.0" style="-fx-background-color: fde3d9;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioTRESController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9ad8d" height="50.0" layoutX="142.0" layoutY="24.0" stroke="#b73535" strokeType="INSIDE" width="471.0" />
-      <Text fill="#0b409c" layoutX="302.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ejercicio 3" textAlignment="CENTER">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e39696" height="50.0" layoutX="150.0" layoutY="14.0" stroke="#b73535" strokeType="INSIDE" width="471.0" />
+      <Text fill="#0b409c" layoutX="310.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ejercicio 3" textAlignment="CENTER">
          <font>
             <Font name="Courgette Regular" size="33.0" />
          </font>
       </Text>
-      <ImageView fitHeight="65.0" fitWidth="150.0" layoutX="76.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/billete500.jpg" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="65.0" fitWidth="150.0" layoutX="77.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/billete100.jpg" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="65.0" fitWidth="150.0" layoutX="368.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/billete100.jpg" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="65.0" fitWidth="150.0" layoutX="223.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/billete100.jpg" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="78.0" fitWidth="143.0" layoutX="72.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/billete20.jpg" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="78.0" fitWidth="143.0" layoutX="219.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/billete20.jpg" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="78.0" fitWidth="143.0" layoutX="363.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/billete20.jpg" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="78.0" fitWidth="143.0" layoutX="363.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/billete20.jpg" />
-         </image>
-      </ImageView>
-      <Text layoutX="134.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eligue cual es la cantidad exacta en total de los billetes.">
+      <Label layoutX="114.0" layoutY="77.0" text="Carlos quiere comprar un sueter" textFill="#0b409c">
          <font>
-            <Font name="System Bold" size="18.0" />
+            <Font name="Aclonica Regular" size="24.0" />
          </font>
-      </Text>
-      <ImageView fitHeight="78.0" fitWidth="143.0" layoutX="218.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+      </Label>
+      <ImageView fitHeight="105.0" fitWidth="96.0" layoutX="114.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../recursos/billete20.jpg" />
+            <Image url="@../ropa/sueter.png" />
          </image>
       </ImageView>
-      <Button layoutX="601.0" layoutY="130.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="56.0" text="900" />
-      <Button layoutX="601.0" layoutY="205.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="56.0" text="850" />
-      <Button layoutX="601.0" layoutY="284.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="56.0" text="920" />
+      <Label layoutX="232.0" layoutY="113.0" text="el sueter vale $30 pesos" textFill="#0b409c">
+         <font>
+            <Font name="Aclonica Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="227.0" layoutY="202.0" text="Carlos tiene $25 pesos" textFill="#0b409c">
+         <font>
+            <Font name="Aclonica Regular" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="90.0" fitWidth="96.0" layoutX="563.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../dinero/efectivo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="118.0" layoutY="288.0" text="¿Cuantas monedas le faltan?" textFill="#0b409c">
+         <font>
+            <Font name="Aclonica Regular" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="76.0" fitWidth="96.0" layoutX="570.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../dinero/moneda.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnRespuesta1" layoutX="165.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: fdbe34;" text="2" textFill="#fff78c">
+         <font>
+            <Font name="Courgette Regular" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRespuesta2" layoutX="282.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: fdbe34;" text="7" textFill="#fff78c">
+         <font>
+            <Font name="Courgette Regular" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRespuesta3" layoutX="397.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: fdbe34;" text="3" textFill="#fff78c">
+         <font>
+            <Font name="Courgette Regular" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnRespuesta4" layoutX="513.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaCorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: fdbe34;" text="5" textFill="#fff78c">
+         <font>
+            <Font name="Courgette Regular" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnInicio" layoutX="37.0" layoutY="483.0" mnemonicParsing="false" onAction="#inicio" style="-fx-background-color: b9d4f1;" text="Inicio" textFill="#005792">
+         <font>
+            <Font name="Courgette Regular" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSiguiente" layoutX="600.0" layoutY="483.0" mnemonicParsing="false" onAction="#siguienteEjercicio" style="-fx-background-color: b9d4f1;" text="Siguiente" textFill="#005792">
+         <font>
+            <Font name="Courgette Regular" size="24.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

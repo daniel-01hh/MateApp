@@ -15,7 +15,6 @@ import javafx.geometry.Insets;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.ButtonBar;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Dialog;
@@ -30,13 +29,7 @@ import javafx.util.Pair;
  *
  * @author DANIEL
  */
-public class FXMLSumaEjercicioTRESController implements Initializable {
-    @FXML private Button btnInicio;
-    @FXML private Button btnRespuesta1;
-    @FXML private Button btnRespuesta2;
-    @FXML private Button btnRespuesta3;
-    @FXML private Button btnRespuesta4;
-    @FXML private Button btnSiguiente;
+public class FXMLSumaEjercicioCUATROController implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -44,48 +37,8 @@ public class FXMLSumaEjercicioTRESController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    } 
-    
-    @FXML
-    public void inicio(ActionEvent evento){
-        try{
-            Stage stage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/sumaPrincipal/FXMLSumaPrincipal.fxml"));
-        
-            Scene scene = new Scene(root);
-        
-            stage.setResizable(false);
-            stage.setTitle("mateApp - Sumas");
-            stage.getIcons().add(new Image("/recursos/logo.png"));       
-            stage.setScene(scene);
-            stage.show();
-        
-            ((Node) (evento.getSource())).getScene().getWindow().hide();
-        }catch(Exception ex){
-            ex.printStackTrace();
-        }
-    }
-    @FXML
-    public void siguienteEjercicio(ActionEvent evento){
-        try{
-            Stage stage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/sumasNivelUNO/FXMLSumaEjercicioCUATRO.fxml"));
-        
-            Scene scene = new Scene(root);
-        
-            stage.setResizable(false);
-            stage.setTitle("mateApp - Ejercicio Tres");
-            stage.getIcons().add(new Image("/recursos/logo.png"));       
-            stage.setScene(scene);
-            stage.show();
-        
-            ((Node) (evento.getSource())).getScene().getWindow().hide();
-        }catch(Exception ex){
-            ex.printStackTrace();
-        }
-    }
-    
-    @FXML
+    }    
+     @FXML
     public void respuestaIncorrecta(ActionEvent evento){
         Dialog<Pair<String, String>> dialog = new Dialog<>();
         dialog.setTitle("Resultado");
@@ -108,8 +61,7 @@ public class FXMLSumaEjercicioTRESController implements Initializable {
         //Mostrar el dialog
         dialog.showAndWait();
     }
-    
-    @FXML
+     @FXML
     public void respuestaCorrecta(ActionEvent evento){
         Dialog<Pair<String, String>> dialog = new Dialog<>();
         dialog.setTitle("Resultado");
@@ -132,5 +84,43 @@ public class FXMLSumaEjercicioTRESController implements Initializable {
         //Mostrar el dialog
         dialog.show();
     }
+     @FXML
+    public void inicio(ActionEvent evento){
+        try{
+            Stage stage = new Stage();
+            Parent root = FXMLLoader.load(getClass().getResource("/sumaPrincipal/FXMLSumaPrincipal.fxml"));
+        
+            Scene scene = new Scene(root);
+        
+            stage.setResizable(false);
+            stage.setTitle("mateApp - Sumas");
+            stage.getIcons().add(new Image("/recursos/logo.png"));       
+            stage.setScene(scene);
+            stage.show();
+        
+            ((Node) (evento.getSource())).getScene().getWindow().hide();
+        }catch(Exception ex){
+            ex.printStackTrace();
+        }
+    }
     
+    @FXML
+    public void siguienteEjercicio(ActionEvent evento){
+        try{
+            Stage stage = new Stage();
+            Parent root = FXMLLoader.load(getClass().getResource("/sumasNivelUNO/FXMLSumaEjercicioCINCO.fxml"));
+        
+            Scene scene = new Scene(root);
+        
+            stage.setResizable(false);
+            stage.setTitle("mateApp - Ejercicio Tres");
+            stage.getIcons().add(new Image("/recursos/logo.png"));       
+            stage.setScene(scene);
+            stage.show();
+        
+            ((Node) (evento.getSource())).getScene().getWindow().hide();
+        }catch(Exception ex){
+            ex.printStackTrace();
+        }
+    }
 }
