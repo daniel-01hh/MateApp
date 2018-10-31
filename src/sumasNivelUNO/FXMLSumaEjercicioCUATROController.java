@@ -113,7 +113,7 @@ public class FXMLSumaEjercicioCUATROController implements Initializable {
             Scene scene = new Scene(root);
         
             stage.setResizable(false);
-            stage.setTitle("mateApp - Ejercicio Tres");
+            stage.setTitle("mateApp - Ejercicio Cinco");
             stage.getIcons().add(new Image("/recursos/logo.png"));       
             stage.setScene(scene);
             stage.show();
