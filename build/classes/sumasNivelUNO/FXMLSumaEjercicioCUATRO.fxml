@@ -7,8 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="497.0" prefWidth="744.0" style="-fx-background-color: fde3d9;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioCUATROController">
+<AnchorPane id="AnchorPane" prefHeight="497.0" prefWidth="744.0" style="-fx-background-color: fde3d9;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioCUATROController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e39696" height="50.0" layoutX="137.0" layoutY="15.0" stroke="#a42121" strokeType="INSIDE" width="471.0" />
       <Text fill="#0b409c" layoutX="308.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ejercicio 4" textAlignment="CENTER">
@@ -16,7 +15,7 @@
             <Font name="Courgette Regular" size="33.0" />
          </font>
       </Text>
-      <Label layoutX="170.0" layoutY="72.0" text=" Adivina el siguiente resultado." textFill="#0b409c">
+      <Label layoutX="217.0" layoutY="65.0" text=" Realiza la suma que falta." textFill="#0b409c">
          <font>
             <Font name="Aclonica Regular" size="24.0" />
          </font>
@@ -51,7 +50,7 @@
             <Font name="System Bold Italic" size="57.0" />
          </font>
       </Text>
-      <Text fill="#1d0c86" fontSmoothingType="LCD" layoutX="356.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
+      <Text fill="#1d0c86" fontSmoothingType="LCD" layoutX="356.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="19">
          <font>
             <Font name="System Bold Italic" size="57.0" />
          </font>
@@ -71,12 +70,12 @@
             <Font name="System Bold Italic" size="57.0" />
          </font>
       </Text>
-      <Text fill="#1d0c86" fontSmoothingType="LCD" layoutX="170.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
+      <Text fill="#1d0c86" fontSmoothingType="LCD" layoutX="170.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="25">
          <font>
             <Font name="System Bold Italic" size="57.0" />
          </font>
       </Text>
-      <Text fill="#1d0c86" fontSmoothingType="LCD" layoutX="356.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
+      <Text fill="#1d0c86" fontSmoothingType="LCD" layoutX="356.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="26">
          <font>
             <Font name="System Bold Italic" size="57.0" />
          </font>
@@ -106,7 +105,7 @@
             <Font name="Courgette Regular" size="30.0" />
          </font>
       </Button>
-      <Button layoutX="412.0" layoutY="352.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: cef0b9;" text="8" textFill="#a7b20f">
+      <Button layoutX="412.0" layoutY="352.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: cef0b9;" text="51" textFill="#a7b20f">
          <font>
             <Font name="Courgette Regular" size="30.0" />
          </font>

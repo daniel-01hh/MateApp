@@ -11,7 +11,7 @@
 <AnchorPane id="AnchorPane" prefHeight="528.0" prefWidth="759.0" style="-fx-background-color: fde3d9;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioCINCOController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9ad8d" height="50.0" layoutX="152.0" layoutY="34.0" stroke="#b73535" strokeType="INSIDE" width="471.0" />
-      <Text fill="#0b409c" fontSmoothingType="LCD" layoutX="343.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+" textAlignment="CENTER">
+      <Text fill="#0b409c" fontSmoothingType="LCD" layoutX="328.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+" textAlignment="CENTER">
          <font>
             <Font name="Courgette Regular" size="45.0" />
          </font>
@@ -21,7 +21,7 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Text>
-      <Text fill="#1f309e" layoutX="214.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Cuantó costara 2 pizzas y tres refrescos?">
+      <Text fill="#1f309e" layoutX="214.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Cuantó costara los dos productos?">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
@@ -36,27 +36,12 @@
             <Image url="@../recursos/cocacola.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="69.0" fitWidth="67.0" layoutX="85.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/Pizza.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="69.0" fitWidth="67.0" layoutX="159.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/Pizza.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="69.0" fitWidth="67.0" layoutX="248.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="69.0" fitWidth="67.0" layoutX="225.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../recursos/Pizza.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="89.0" fitWidth="17.0" layoutX="404.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../recursos/cocacola.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="89.0" fitWidth="17.0" layoutX="445.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../recursos/cocacola.png" />
          </image>
@@ -86,12 +71,12 @@
             <Font name="Courgette Regular" size="33.0" />
          </font>
       </Text>
-      <Button layoutX="112.0" layoutY="383.0" mnemonicParsing="false" onAction="#respuestaCorrecta" text="\$195.00" textFill="#0b0b72">
+      <Button layoutX="112.0" layoutY="383.0" mnemonicParsing="false" onAction="#respuestaCorrecta" text="\$85.00" textFill="#0b0b72">
          <font>
             <Font name="Bernard MT Condensed" size="21.0" />
          </font>
       </Button>
-      <Button layoutX="248.0" layoutY="383.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" text="\$175.00" textFill="#0b0b72">
+      <Button layoutX="248.0" layoutY="383.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" text="\$75.00" textFill="#0b0b72">
          <font>
             <Font name="Bernard MT Condensed" size="21.0" />
          </font>
@@ -101,7 +86,7 @@
             <Font name="Bernard MT Condensed" size="21.0" />
          </font>
       </Button>
-      <Button layoutX="513.0" layoutY="383.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" text="\$155.00" textFill="#0b0b72">
+      <Button layoutX="513.0" layoutY="383.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" text="\$55.00" textFill="#0b0b72">
          <font>
             <Font name="Bernard MT Condensed" size="21.0" />
          </font>
