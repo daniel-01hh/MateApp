@@ -127,7 +127,7 @@ public class FXMLSumaEjercicioUNOController implements Initializable {
         dialog.setTitle("Resultado");
         dialog.setHeaderText("Felicidades Bien Hecho");
         //Agregando un icono personalizado
-        dialog.setGraphic(new ImageView(this.getClass().getResource("/recursos/confeti.png").toString()));
+        dialog.setGraphic(new ImageView(this.getClass().getResource("/recursos/OK.png").toString()));
         //Creando Boton
         ButtonType OK = new ButtonType("OK", ButtonData.OK_DONE);
         dialog.getDialogPane().getButtonTypes().addAll(OK);

@@ -73,4 +73,24 @@ public class FXMLSumaPrincipalController implements Initializable {
         }
     }
     
+    @FXML
+    public void ejercicioNivelDOS(ActionEvent evento){
+        try{
+            Stage stage = new Stage();
+            Parent root = FXMLLoader.load(getClass().getResource("/sumasNivelDOS/FXMLSumaEjercicioUNO.fxml"));
+        
+            Scene scene = new Scene(root);
+        
+            stage.setResizable(false);
+            stage.setTitle("mateApp - Suma Ejercicio 1");
+            stage.getIcons().add(new Image("/recursos/logo.png"));       
+            stage.setScene(scene);
+            stage.show();
+        
+            ((Node) (evento.getSource())).getScene().getWindow().hide();
+        }catch(Exception ex){
+            ex.printStackTrace();
+        }
+    }
+    
 }

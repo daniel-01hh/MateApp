@@ -67,7 +67,7 @@ public class FXMLSumaEjercicioCUATROController implements Initializable {
         dialog.setTitle("Resultado");
         dialog.setHeaderText("Felicidades Bien Hecho");
         //Agregando un icono personalizado
-        dialog.setGraphic(new ImageView(this.getClass().getResource("/recursos/confeti.png").toString()));
+        dialog.setGraphic(new ImageView(this.getClass().getResource("/recursos/OK.png").toString()));
         //Creando Boton
         ButtonType OK = new ButtonType("OK", ButtonBar.ButtonData.OK_DONE);
         dialog.getDialogPane().getButtonTypes().addAll(OK);
@@ -108,7 +108,7 @@ public class FXMLSumaEjercicioCUATROController implements Initializable {
     public void siguienteEjercicio(ActionEvent evento){
         try{
             Stage stage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/sumasNivelUNO/FXMLSumaEjercicioCINCO.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/sumasNivelDOS/FXMLSumaEjercicioCinco.fxml"));
         
             Scene scene = new Scene(root);
         
@@ -123,4 +123,5 @@ public class FXMLSumaEjercicioCUATROController implements Initializable {
             ex.printStackTrace();
         }
     }
+    
 }

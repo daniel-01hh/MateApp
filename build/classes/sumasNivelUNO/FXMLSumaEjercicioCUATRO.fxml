@@ -7,11 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<<<<<<< HEAD
-<AnchorPane id="AnchorPane" prefHeight="497.0" prefWidth="744.0" style="-fx-background-color: fde3d9;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioCUATROController">
-=======
-<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="770.0" style="-fx-background-color: fde3d9;" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioCUATROController">
->>>>>>> 0a4ee34617ce846481cde63a918dd499e35de312
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="770.0" style="-fx-background-color: fde3d9;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioCUATROController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e39696" height="50.0" layoutX="150.0" layoutY="14.0" stroke="#a42121" strokeType="INSIDE" width="471.0" />
       <Text fill="#0b409c" layoutX="310.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ejercicio 4" textAlignment="CENTER">
@@ -19,11 +15,7 @@
             <Font name="Courgette Regular" size="33.0" />
          </font>
       </Text>
-<<<<<<< HEAD
-      <Label layoutX="217.0" layoutY="65.0" text=" Realiza la suma que falta." textFill="#0b409c">
-=======
-      <Label layoutX="183.0" layoutY="72.0" text=" Adivina el siguiente resultado." textFill="#0b409c">
->>>>>>> 0a4ee34617ce846481cde63a918dd499e35de312
+      <Label layoutX="214.0" layoutY="75.0" text=" Realiza la suma que falta." textFill="#0b409c">
          <font>
             <Font name="Aclonica Regular" size="24.0" />
          </font>
@@ -58,11 +50,7 @@
             <Font name="Aclonica Regular" size="48.0" />
          </font>
       </Text>
-<<<<<<< HEAD
-      <Text fill="#1d0c86" fontSmoothingType="LCD" layoutX="356.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="19">
-=======
       <Text fill="#1d0c86" fontSmoothingType="LCD" layoutX="357.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3">
->>>>>>> 0a4ee34617ce846481cde63a918dd499e35de312
          <font>
             <Font name="Aclonica Regular" size="48.0" />
          </font>
@@ -82,20 +70,12 @@
             <Font name="Aclonica Regular" size="48.0" />
          </font>
       </Text>
-<<<<<<< HEAD
-      <Text fill="#1d0c86" fontSmoothingType="LCD" layoutX="170.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="25">
-=======
       <Text fill="#1d0c86" fontSmoothingType="LCD" layoutX="170.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2">
->>>>>>> 0a4ee34617ce846481cde63a918dd499e35de312
          <font>
             <Font name="Aclonica Regular" size="48.0" />
          </font>
       </Text>
-<<<<<<< HEAD
-      <Text fill="#1d0c86" fontSmoothingType="LCD" layoutX="356.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="26">
-=======
       <Text fill="#1d0c86" fontSmoothingType="LCD" layoutX="356.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6">
->>>>>>> 0a4ee34617ce846481cde63a918dd499e35de312
          <font>
             <Font name="Aclonica Regular" size="48.0" />
          </font>
@@ -120,16 +100,13 @@
             <Font name="Courgette Regular" size="30.0" />
          </font>
       </Button>
-      <Button layoutX="282.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaCorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: ffd98e;" text="36" textFill="#f47645">
+      <Button layoutX="282.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: ffd98e;" text="36" textFill="#f47645">
          <font>
             <Font name="Courgette Regular" size="30.0" />
          </font>
       </Button>
-<<<<<<< HEAD
-      <Button layoutX="412.0" layoutY="352.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: cef0b9;" text="51" textFill="#a7b20f">
-=======
-      <Button layoutX="397.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: ffd98e;" text="8" textFill="#f47645">
->>>>>>> 0a4ee34617ce846481cde63a918dd499e35de312
+
+      <Button layoutX="397.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaCorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: ffd98e;" text="8" textFill="#f47645">
          <font>
             <Font name="Courgette Regular" size="30.0" />
          </font>

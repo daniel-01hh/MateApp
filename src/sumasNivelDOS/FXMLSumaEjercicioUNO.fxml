@@ -9,8 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="770.0" style="-fx-background-color: fff1c1;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="sumasNivelDOS.FXMLSumaEjercicioUNOController">
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="770.0" style="-fx-background-color: fff1c1;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelDOS.FXMLSumaEjercicioUNOController">
    <children>
       <Circle fill="#53d397" layoutX="222.0" layoutY="280.0" radius="34.0" stroke="#4bbb8b" strokeType="INSIDE" />
       <Circle fill="#53d397" layoutX="272.0" layoutY="247.0" radius="34.0" stroke="#4bbb8b" strokeType="INSIDE" />
@@ -20,24 +19,24 @@
             <Font name="Courgette Regular" size="33.0" />
          </font>
       </Text>
-      <Button fx:id="btnRespuesta1" layoutX="165.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: f9c4aa;" text="10" textFill="#e44646">
+      <Button fx:id="btnRespuesta1" layoutX="165.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: ffb6b9;" text="10" textFill="#c34141">
          <font>
-            <Font name="Courgette Regular" size="30.0" />
+            <Font name="Bernard MT Condensed" size="30.0" />
          </font>
       </Button>
-      <Button fx:id="btnRespuesta2" layoutX="282.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaCorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: f9c4aa;" text="12" textFill="#e44646">
+      <Button fx:id="btnRespuesta2" layoutX="282.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaCorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: ffb6b9;" text="12" textFill="#c34141">
          <font>
-            <Font name="Courgette Regular" size="30.0" />
+            <Font name="Bernard MT Condensed" size="30.0" />
          </font>
       </Button>
-      <Button fx:id="btnRespuesta3" layoutX="397.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: f9c4aa;" text="14" textFill="#e44646">
+      <Button fx:id="btnRespuesta3" layoutX="397.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: ffb6b9;" text="14" textFill="#c34141">
          <font>
-            <Font name="Courgette Regular" size="30.0" />
+            <Font name="Bernard MT Condensed" size="30.0" />
          </font>
       </Button>
-      <Button fx:id="btnRespuesta4" layoutX="513.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: f9c4aa;" text="13" textFill="#e44646">
+      <Button fx:id="btnRespuesta4" layoutX="513.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="73.0" style="-fx-background-color: ffb6b9;" text="13" textFill="#c34141">
          <font>
-            <Font name="Courgette Regular" size="30.0" />
+            <Font name="Bernard MT Condensed" size="30.0" />
          </font>
       </Button>
       <Button fx:id="btnInicio" layoutX="37.0" layoutY="483.0" mnemonicParsing="false" onAction="#inicio" style="-fx-background-color: b9d4f1;" text="Inicio" textFill="#005792">

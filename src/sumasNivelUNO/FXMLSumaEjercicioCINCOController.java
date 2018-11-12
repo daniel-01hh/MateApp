@@ -65,7 +65,7 @@ public class FXMLSumaEjercicioCINCOController implements Initializable {
     public void respuestaCorrecta(ActionEvent evento){
         Dialog<Pair<String, String>> dialog = new Dialog<>();
         dialog.setTitle("Resultado");
-        dialog.setHeaderText("Felicidades Bien Hecho");
+        dialog.setHeaderText("Felicidades Terminaste el nivel 1");
         //Agregando un icono personalizado
         dialog.setGraphic(new ImageView(this.getClass().getResource("/recursos/confeti.png").toString()));
         //Creando Boton

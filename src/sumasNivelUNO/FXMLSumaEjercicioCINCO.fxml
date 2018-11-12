@@ -8,27 +8,23 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="770.0" style="-fx-background-color: fde3d9;" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioCINCOController">
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="770.0" style="-fx-background-color: fde3d9;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelUNO.FXMLSumaEjercicioCINCOController">
    <children>
-<<<<<<< HEAD
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9ad8d" height="50.0" layoutX="152.0" layoutY="34.0" stroke="#b73535" strokeType="INSIDE" width="471.0" />
-      <Text fill="#0b409c" fontSmoothingType="LCD" layoutX="328.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+" textAlignment="CENTER">
-=======
+
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f9ad8d" height="50.0" layoutX="150.0" layoutY="14.0" stroke="#b73535" strokeType="INSIDE" width="471.0" />
       <Text fill="#0b409c" fontSmoothingType="LCD" layoutX="343.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+" textAlignment="CENTER">
->>>>>>> 0a4ee34617ce846481cde63a918dd499e35de312
          <font>
             <Font name="Courgette Regular" size="45.0" />
          </font>
       </Text>
-      <Text fill="#1f309e" layoutX="182.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Si una pizza cuesta $60 y un refresco cuesta $25.">
+      <Text fill="#1f309e" layoutX="144.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Si una pizza cuesta $60 y un refresco cuesta $25.">
          <font>
-            <Font name="System Bold" size="18.0" />
+            <Font name="Aclonica Regular" size="18.0" />
          </font>
       </Text>
-      <Text fill="#1f309e" layoutX="214.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Cuantó costara los dos productos?">
+      <Text fill="#1f309e" layoutX="241.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¿Cuantó costara los dos productos?">
          <font>
-            <Font name="System Bold" size="18.0" />
+            <Font name="Aclonica Regular" size="18.0" />
          </font>
       </Text>
       <ImageView fitHeight="113.0" fitWidth="118.0" layoutX="192.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
@@ -76,34 +72,22 @@
             <Font name="Courgette Regular" size="33.0" />
          </font>
       </Text>
-<<<<<<< HEAD
-      <Button layoutX="112.0" layoutY="383.0" mnemonicParsing="false" onAction="#respuestaCorrecta" text="\$85.00" textFill="#0b0b72">
-=======
-      <Button layoutX="135.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaCorrecta" prefHeight="59.0" style="-fx-background-color: ffb6b9;" text="\$195.00" textFill="#c34141">
->>>>>>> 0a4ee34617ce846481cde63a918dd499e35de312
+      <Button layoutX="135.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="94.0" style="-fx-background-color: ffb6b9;" text="\$70.00" textFill="#c34141">
          <font>
             <Font name="Bernard MT Condensed" size="21.0" />
          </font>
       </Button>
-<<<<<<< HEAD
-      <Button layoutX="248.0" layoutY="383.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" text="\$75.00" textFill="#0b0b72">
-=======
-      <Button layoutX="271.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" style="-fx-background-color: ffb6b9;" text="\$175.00" textFill="#c34141">
->>>>>>> 0a4ee34617ce846481cde63a918dd499e35de312
+      <Button layoutX="271.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaCorrecta" prefHeight="59.0" prefWidth="94.0" style="-fx-background-color: ffb6b9;" text="\$85.00" textFill="#c34141">
          <font>
             <Font name="Bernard MT Condensed" size="21.0" />
          </font>
       </Button>
-      <Button layoutX="398.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" style="-fx-background-color: ffb6b9;" text="\$111.00" textFill="#c34141">
+      <Button layoutX="398.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="94.0" style="-fx-background-color: ffb6b9;" text="\$60.00" textFill="#c34141">
          <font>
             <Font name="Bernard MT Condensed" size="21.0" />
          </font>
       </Button>
-<<<<<<< HEAD
-      <Button layoutX="513.0" layoutY="383.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" text="\$55.00" textFill="#0b0b72">
-=======
-      <Button layoutX="536.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" style="-fx-background-color: ffb6b9;" text="\$155.00" textFill="#c34141">
->>>>>>> 0a4ee34617ce846481cde63a918dd499e35de312
+      <Button layoutX="536.0" layoutY="400.0" mnemonicParsing="false" onAction="#respuestaIncorrecta" prefHeight="59.0" prefWidth="94.0" style="-fx-background-color: ffb6b9;" text="\$90.00" textFill="#c34141">
          <font>
             <Font name="Bernard MT Condensed" size="21.0" />
          </font>

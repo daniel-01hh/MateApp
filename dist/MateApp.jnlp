@@ -8,11 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-<<<<<<< HEAD
-    <jar href="MateApp.jar" size="1545217" download="eager" />
-=======
-    <jar href="MateApp.jar" size="991936" download="eager" />
->>>>>>> 0a4ee34617ce846481cde63a918dd499e35de312
+    <jar href="MateApp.jar" size="16388868" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MateApp" >
     <param name="requiredFXVersion" value="8.0+"/>
