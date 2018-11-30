@@ -29,7 +29,7 @@ import javafx.util.Pair;
  *
  * @author DANIEL
  */
-public class FXMLRestaTRESController implements Initializable {
+public class FXMLRestaCincoController implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -57,25 +57,7 @@ public class FXMLRestaTRESController implements Initializable {
             ex.printStackTrace();
         }
     }
-     @FXML
-    public void sig(ActionEvent evento){
-        try{
-            Stage stage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/restaNivelUNO/FXMLRestaCuatro.fxml"));
-        
-            Scene scene = new Scene(root);
-        
-            stage.setResizable(false);
-            stage.setTitle("mateApp - Sumas");
-            stage.getIcons().add(new Image("/recursos/logo.png"));       
-            stage.setScene(scene);
-            stage.show();
-        
-            ((Node) (evento.getSource())).getScene().getWindow().hide();
-        }catch(Exception ex){
-            ex.printStackTrace();
-        }
-    }
+     
     @FXML
     public void respuestaCorrecta(ActionEvent evento){
         Dialog<Pair<String, String>> dialog = new Dialog<>();

@@ -5,6 +5,7 @@
  */
 package restaNivelUNO;
 
+import java.awt.event.MouseEvent;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -15,6 +16,7 @@ import javafx.geometry.Insets;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.ButtonBar;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Dialog;
@@ -29,14 +31,13 @@ import javafx.util.Pair;
  *
  * @author DANIEL
  */
-public class FXMLRestaTRESController implements Initializable {
-
+public class FXMLRestaCuatroController implements Initializable {
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+       
     }    
     @FXML
     public void inicio(ActionEvent evento){
@@ -58,10 +59,14 @@ public class FXMLRestaTRESController implements Initializable {
         }
     }
      @FXML
+     
     public void sig(ActionEvent evento){
+      
         try{
+            
             Stage stage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/restaNivelUNO/FXMLRestaCuatro.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/restaNivelUNO/FXMLRestaCinco"
+                    + ".fxml"));
         
             Scene scene = new Scene(root);
         
