@@ -47,7 +47,7 @@ public class FXMLRestaTRESController implements Initializable {
             Scene scene = new Scene(root);
         
             stage.setResizable(false);
-            stage.setTitle("mateApp - Sumas");
+            stage.setTitle("mateApp - Resta");
             stage.getIcons().add(new Image("/recursos/logo.png"));       
             stage.setScene(scene);
             stage.show();
@@ -66,7 +66,7 @@ public class FXMLRestaTRESController implements Initializable {
             Scene scene = new Scene(root);
         
             stage.setResizable(false);
-            stage.setTitle("mateApp - Sumas");
+            stage.setTitle("mateApp - Resta");
             stage.getIcons().add(new Image("/recursos/logo.png"));       
             stage.setScene(scene);
             stage.show();

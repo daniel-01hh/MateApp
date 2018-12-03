@@ -62,7 +62,7 @@ public class FXMLRestaPrincipalController implements Initializable {
             Scene scene = new Scene(root);
         
             stage.setResizable(false);
-            stage.setTitle("mateApp - Suma Ejercicio 1");
+            stage.setTitle("mateApp - Resta Ejercicio 1");
             stage.getIcons().add(new Image("/recursos/logo.png"));       
             stage.setScene(scene);
             stage.show();

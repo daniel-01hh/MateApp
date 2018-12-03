@@ -39,7 +39,45 @@ public class FXMLRestaUNOController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
         
-    }  
+    } 
+@FXML
+    public void inicio(ActionEvent evento){
+        try{
+            Stage stage = new Stage();
+            Parent root = FXMLLoader.load(getClass().getResource("/restaPrincipal/FXMLRestaPrincipal.fxml"));
+        
+            Scene scene = new Scene(root);
+        
+            stage.setResizable(false);
+            stage.setTitle("mateApp - Resta");
+            stage.getIcons().add(new Image("/recursos/logo.png"));       
+            stage.setScene(scene);
+            stage.show();
+        
+            ((Node) (evento.getSource())).getScene().getWindow().hide();
+        }catch(Exception ex){
+            ex.printStackTrace();
+        }
+    }
+     @FXML
+    public void sig(ActionEvent evento){
+        try{
+            Stage stage = new Stage();
+            Parent root = FXMLLoader.load(getClass().getResource("/restaNivelUNO/FXMLRestaDos.fxml"));
+        
+            Scene scene = new Scene(root);
+        
+            stage.setResizable(false);
+            stage.setTitle("mateApp - Resta");
+            stage.getIcons().add(new Image("/recursos/logo.png"));       
+            stage.setScene(scene);
+            stage.show();
+        
+            ((Node) (evento.getSource())).getScene().getWindow().hide();
+        }catch(Exception ex){
+            ex.printStackTrace();
+        }
+    }
     @FXML
     public void respuestaCorrecta(ActionEvent evento){
         Dialog<Pair<String, String>> dialog = new Dialog<>();
@@ -86,44 +124,4 @@ public class FXMLRestaUNOController implements Initializable {
         //Mostrar el dialog
         dialog.showAndWait();
     }
-    @FXML
-    public void inicio(ActionEvent evento){
-        try{
-            Stage stage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/restaPrincipal/FXMLRestaPrincipal.fxml"));
-        
-            Scene scene = new Scene(root);
-        
-            stage.setResizable(false);
-            stage.setTitle("mateApp - Sumas");
-            stage.getIcons().add(new Image("/recursos/logo.png"));       
-            stage.setScene(scene);
-            stage.show();
-        
-            ((Node) (evento.getSource())).getScene().getWindow().hide();
-        }catch(Exception ex){
-            ex.printStackTrace();
-        }
-    }
-     @FXML
-    public void sig(ActionEvent evento){
-        
-        try{
-            Stage stage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/restaNivelUNO/FXMLRestaDos.fxml"));
-        
-            Scene scene = new Scene(root);
-        
-            stage.setResizable(false);
-            stage.setTitle("mateApp - Sumas");
-            stage.getIcons().add(new Image("/recursos/logo.png"));       
-            stage.setScene(scene);
-            stage.show();
-        
-            ((Node) (evento.getSource())).getScene().getWindow().hide();
-        }catch(Exception ex){
-            ex.printStackTrace();
-        }
-    }
-
 }
