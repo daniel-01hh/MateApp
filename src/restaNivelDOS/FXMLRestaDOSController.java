@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package restaNivelUNO;
+package restaNivelDOS;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -27,9 +27,9 @@ import javafx.util.Pair;
 /**
  * FXML Controller class
  *
- * @author DANIEL
+ * @author Gerardelli Santiago
  */
-public class FXMLRestaDosController implements Initializable {
+public class FXMLRestaDOSController implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -38,44 +38,7 @@ public class FXMLRestaDosController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
-     @FXML
-    public void inicio(ActionEvent evento){
-        try{
-            Stage stage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/restaPrincipal/FXMLRestaPrincipal.fxml"));
-        
-            Scene scene = new Scene(root);
-        
-            stage.setResizable(false);
-            stage.setTitle("mateApp - Resta");
-            stage.getIcons().add(new Image("/recursos/logo.png"));       
-            stage.setScene(scene);
-            stage.show();
-        
-            ((Node) (evento.getSource())).getScene().getWindow().hide();
-        }catch(Exception ex){
-            ex.printStackTrace();
-        }
-    }
-     @FXML
-    public void sig(ActionEvent evento){
-        try{
-            Stage stage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/restaNivelUNO/FXMLRestaTRES.fxml"));
-        
-            Scene scene = new Scene(root);
-        
-            stage.setResizable(false);
-            stage.setTitle("mateApp - Ejercicio 3");
-            stage.getIcons().add(new Image("/recursos/logo.png"));       
-            stage.setScene(scene);
-            stage.show();
-        
-            ((Node) (evento.getSource())).getScene().getWindow().hide();
-        }catch(Exception ex){
-            ex.printStackTrace();
-        }
-    }
+    
     @FXML
     public void respuestaCorrecta(ActionEvent evento){
         Dialog<Pair<String, String>> dialog = new Dialog<>();
@@ -122,4 +85,44 @@ public class FXMLRestaDosController implements Initializable {
         //Mostrar el dialog
         dialog.showAndWait();
     }
+    @FXML
+    public void inicio(ActionEvent evento){
+        try{
+            Stage stage = new Stage();
+            Parent root = FXMLLoader.load(getClass().getResource("/restaPrincipal/FXMLRestaPrincipal.fxml"));
+        
+            Scene scene = new Scene(root);
+        
+            stage.setResizable(false);
+            stage.setTitle("mateApp - Restas");
+            stage.getIcons().add(new Image("/recursos/logo.png"));       
+            stage.setScene(scene);
+            stage.show();
+        
+            ((Node) (evento.getSource())).getScene().getWindow().hide();
+        }catch(Exception ex){
+            ex.printStackTrace();
+        }
+    }
+     @FXML
+    public void sig(ActionEvent evento){
+        
+        try{
+            Stage stage = new Stage();
+            Parent root = FXMLLoader.load(getClass().getResource("/restaNivelDOS/FXMLRestaTRES.fxml"));
+        
+            Scene scene = new Scene(root);
+        
+            stage.setResizable(false);
+            stage.setTitle("mateApp - Ejercicio 3");
+            stage.getIcons().add(new Image("/recursos/logo.png"));       
+            stage.setScene(scene);
+            stage.show();
+        
+            ((Node) (evento.getSource())).getScene().getWindow().hide();
+        }catch(Exception ex){
+            ex.printStackTrace();
+        }
+    }
+    
 }

@@ -30,7 +30,7 @@ import javafx.util.Pair;
  *
  * @author Gerardelli Santiago
  */
-public class FXMLSumaEjercicioDOSController implements Initializable {
+public class FXMLSumaDOSController implements Initializable {
     @FXML private Button btnInicio;
     @FXML private Button btnRespuesta1;
     @FXML private Button btnRespuesta2;
@@ -39,14 +39,13 @@ public class FXMLSumaEjercicioDOSController implements Initializable {
     @FXML private Button btnSiguiente;
     public int estado;
 
-
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }   
+    } 
     
     @FXML
     public void inicio(ActionEvent evento){
@@ -141,6 +140,7 @@ public class FXMLSumaEjercicioDOSController implements Initializable {
             btnSiguiente.setDisable(true);
         }
     } 
-   
+    
+    
     
 }

@@ -37,7 +37,7 @@
             <Font name="Aclonica Regular" size="72.0" />
          </font>
       </Button>
-      <Button fx:id="btnResta" layoutX="413.0" layoutY="213.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: fdbe34;" text="l&gt;" textFill="#f6ec72">
+      <Button fx:id="btnResta" layoutX="413.0" layoutY="213.0" mnemonicParsing="false" onAction="#juegodosresta" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: fdbe34;" text="l&gt;" textFill="#f6ec72">
          <font>
             <Font name="Aclonica Regular" size="72.0" />
          </font>

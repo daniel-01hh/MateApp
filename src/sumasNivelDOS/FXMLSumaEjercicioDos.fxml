@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="770.0" style="-fx-background-color: fff1c1;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelDOS.FXMLSumaEjercicioDOSController">
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="770.0" style="-fx-background-color: fff1c1;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sumasNivelDOS.FXMLSumaDOSController">
    <children>
       <ImageView fitHeight="149.0" fitWidth="94.0" layoutX="79.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -119,3 +119,4 @@
       </Button>
    </children>
 </AnchorPane>
+

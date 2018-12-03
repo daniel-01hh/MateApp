@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sumasNivelDOS;
+package restaNivelDOS;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -15,7 +15,6 @@ import javafx.geometry.Insets;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.ButtonBar;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Dialog;
@@ -30,15 +29,7 @@ import javafx.util.Pair;
  *
  * @author Gerardelli Santiago
  */
-public class FXMLSumaEjercicioDOSController implements Initializable {
-    @FXML private Button btnInicio;
-    @FXML private Button btnRespuesta1;
-    @FXML private Button btnRespuesta2;
-    @FXML private Button btnRespuesta3;
-    @FXML private Button btnRespuesta4;
-    @FXML private Button btnSiguiente;
-    public int estado;
-
+public class FXMLRestaCINCOController implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -46,46 +37,7 @@ public class FXMLSumaEjercicioDOSController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }   
-    
-    @FXML
-    public void inicio(ActionEvent evento){
-        try{
-            Stage stage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/sumaPrincipal/FXMLSumaPrincipal.fxml"));
-        
-            Scene scene = new Scene(root);
-        
-            stage.setResizable(false);
-            stage.setTitle("mateApp - Sumas");
-            stage.getIcons().add(new Image("/recursos/logo.png"));       
-            stage.setScene(scene);
-            stage.show();
-        
-            ((Node) (evento.getSource())).getScene().getWindow().hide();
-        }catch(Exception ex){
-            ex.printStackTrace();
-        }
-    }
-    @FXML
-    public void siguienteEjercicio(ActionEvent evento){
-        try{
-            Stage stage = new Stage();
-            Parent root = FXMLLoader.load(getClass().getResource("/sumasNivelDOS/FXMLSumaEjercicioTRES.fxml"));
-        
-            Scene scene = new Scene(root);
-        
-            stage.setResizable(false);
-            stage.setTitle("mateApp - Suma Ejercicio Dos");
-            stage.getIcons().add(new Image("/recursos/logo.png"));       
-            stage.setScene(scene);
-            stage.show();
-        
-            ((Node) (evento.getSource())).getScene().getWindow().hide();
-        }catch(Exception ex){
-            ex.printStackTrace();
-        }
-    }
+    }    
     
     @FXML
     public void respuestaIncorrecta(ActionEvent evento){
@@ -110,14 +62,13 @@ public class FXMLSumaEjercicioDOSController implements Initializable {
         //Mostrar el dialog
         dialog.showAndWait();
     }
-    
-    @FXML
+     @FXML
     public void respuestaCorrecta(ActionEvent evento){
         Dialog<Pair<String, String>> dialog = new Dialog<>();
         dialog.setTitle("Resultado");
-        dialog.setHeaderText("Felicidades Bien Hecho");
+        dialog.setHeaderText("Felicidades Terminaste el nivel 2");
         //Agregando un icono personalizado
-        dialog.setGraphic(new ImageView(this.getClass().getResource("/recursos/OK.png").toString()));
+        dialog.setGraphic(new ImageView(this.getClass().getResource("/recursos/confeti.png").toString()));
         //Creando Boton
         ButtonType OK = new ButtonType("OK", ButtonBar.ButtonData.OK_DONE);
         dialog.getDialogPane().getButtonTypes().addAll(OK);
@@ -133,14 +84,25 @@ public class FXMLSumaEjercicioDOSController implements Initializable {
         dialog.getDialogPane().setContent(grid);
         //Mostrar el dialog
         dialog.show();
-        estado = 1;
     }
-    
-    public void gestionarEvento(){
-        if(estado==1){
-            btnSiguiente.setDisable(true);
+     @FXML
+    public void inicio(ActionEvent evento){
+        try{
+            Stage stage = new Stage();
+            Parent root = FXMLLoader.load(getClass().getResource("/sumaPrincipal/FXMLSumaPrincipal.fxml"));
+        
+            Scene scene = new Scene(root);
+        
+            stage.setResizable(false);
+            stage.setTitle("mateApp - Sumas");
+            stage.getIcons().add(new Image("/recursos/logo.png"));       
+            stage.setScene(scene);
+            stage.show();
+        
+            ((Node) (evento.getSource())).getScene().getWindow().hide();
+        }catch(Exception ex){
+            ex.printStackTrace();
         }
-    } 
-   
+    }
     
 }
