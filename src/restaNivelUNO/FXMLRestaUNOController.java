@@ -15,6 +15,7 @@ import javafx.geometry.Insets;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.ButtonBar;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Dialog;
@@ -30,14 +31,15 @@ import javafx.util.Pair;
  * @author DANIEL
  */
 public class FXMLRestaUNOController implements Initializable {
-
+    
     /**
      * Initializes the controller class.
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-    }    
+        
+    }  
     @FXML
     public void respuestaCorrecta(ActionEvent evento){
         Dialog<Pair<String, String>> dialog = new Dialog<>();
@@ -105,6 +107,7 @@ public class FXMLRestaUNOController implements Initializable {
     }
      @FXML
     public void sig(ActionEvent evento){
+        
         try{
             Stage stage = new Stage();
             Parent root = FXMLLoader.load(getClass().getResource("/restaNivelUNO/FXMLRestaDos.fxml"));
